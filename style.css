@@ -1,3 +1,14 @@
+.menu-bar{
+    display: flex;
+}
+.logo img{
+    width: 20%;
+    padding-left: 20px;
+}
+.menus a{
+    text-decoration: none;
+    text-align: center;
+}
 body{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
@@ -8,8 +19,9 @@ h1{
 .header{
     display: flex;
     padding: 80px;
-    padding-top: 200px;
-    background-color: wheat;
+    padding-top: 50px;
+    background-image: url(images/bg1.png);
+    background-repeat: none;
 }
 span{
     color: #00fcff;
@@ -27,8 +39,9 @@ span{
 width: 50%;
 }
 .half-width img{
- width: 80%;
+ width: 100%;
  padding-left: 50px;
+padding-bottom: 90px;
 }
 .para{
     letter-spacing: 1px;
