@@ -104,13 +104,15 @@ padding-bottom: 90px;
 .series{
     padding-left: 75px;
 }
-
+.images{
+    margin: 50px 60px 0px 60px;
+}
 .images img{
     width: 300px;
     border-right: 2px solid #00fcff;
     border-radius: 5px;
-    margin-left: 110px;
-    margin-top: 40px;
+    justify-content: space-between;
+margin: 40px 30px 30px 30px;
 
 }
 .images img:hover{
@@ -118,9 +120,7 @@ padding-bottom: 90px;
 }
 .servies-link{
     display: flex;
-    margin-left: 150px;
-    margin-right: 150px;
-    margin-top: 40px;
+    padding: 5% 10% 5% 10% ;
     justify-content: space-between;
 }
 .servies-link h2 a{
